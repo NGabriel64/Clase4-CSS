@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    height: 500px;
+    background-color:black;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid yellow;
+}
+
+.violeta{
+    background-color: violet;
+}
+
+.azul{
+    background-color: blue;
+    margin-left: calc(100% - 102px);
+    margin-top: -102px;
+}
+
+.verde{
+    background-color: green;
+    margin-left: calc(100% - 102px);
+    margin-top: calc(500px - 204px);
+}
+
+.rojo{
+    background-color: red;
+    margin-top: -102px;
+}

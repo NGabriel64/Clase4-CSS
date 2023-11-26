@@ -1,0 +1,57 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;500&display=swap');
+/*font-family: 'Playpen Sans', cursive;*/
+
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root{
+    /* Fuentes */
+    --fuente-titulos:'Playpen Sans', cursive;
+    --fuente-textos:
+
+    /* Colores */
+    --color-alpha#04364A;
+    --color-beta:#176B87;
+    --color-charlie:#64CCC5;
+    --color-delta:#DAFFFB;
+}
+
+header{
+    background-color: var(--color-beta);
+    padding-left: calc(50% - 150px);
+}
+
+.titulos{
+    font-family: var(--fuente-titulos);
+    font-size: 3rem;
+    text-align: center;
+    width: 300px;
+    background-color: var(--color-delta);
+}
+
+body{
+    font-family: Verdana;
+    background-color: var(--color-charlie);
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: antiquewhite;
+    border: 2px solid;
+    margin: 50px;
+    padding: 10px;
+}
+    
+.caja div{
+    height: 30%;
+    width: 30%;
+    background-color: red;
+
+}
